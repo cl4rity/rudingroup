@@ -1,0 +1,65 @@
+h5 {
+	font-size: 1.5em;
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+	text-shadow: 2px 2px 4px #111111;
+}
+
+body {
+    font-family: 'Poppins';font-size: 1.1em;
+}
+
+
+
+.card {
+	border-radius: 0;
+	border:none;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 3rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.kontaktinfo {
+
+}
+
+
+.ct-footer-post a:hover {
+  text-decoration: underline;
+}
+.ct-footer-post {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1.5em 0;
+}
+
+.ct-footer-post ul li {
+ 
+  margin: 0 20px;
+}
+.ct-footer-post a {
+  color: #666;
+}
+.ct-footer-post p {
+  color: #fff;
+}
+
+
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: blue;
+}
+a {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
