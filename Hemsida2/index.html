@@ -9,83 +9,92 @@
 		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 	</head>
 		<body id="bootstrap-overrides">
-			<div class="container-fluid">
-			<header>
 
-					<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				 
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
+					<nav id="navbar-example2" class="navbar navbar-light bg-light fixed-top">
+		  <a class="navbar-brand" href="#">Rudin Group</a>
+		  <ul class="nav nav-pills">
+				   <li class="nav-item dropdown">
+		      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tjänster</a>
+		      <div class="dropdown-menu">
+		        <a class="dropdown-item" href="#">one</a>
+		        <a class="dropdown-item" href="#">two</a>
+		        <a class="dropdown-item" href="#">three</a>
+		      </div>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#omoss">Om oss</a>
+		    </li>
 
-				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				    <ul class="navbar-nav mr-auto">
-				      <li class="nav-item active">
-				        <a class="nav-link" href="#">Tjänster <span class="sr-only">(current)</span></a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="omoss.html">Om oss</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="kontakt.html">Kontakt</a>
-				      </li>
-				    </ul>
-				    </div>
-				  <a class="navbar-brand " href="#">
-				  	<img src="logo.png" width="50" height="70" alt="">
-				  </a>
-
-
-					   
-				</nav>
-			</header>
-		</div>
-
-	<!-- Bild 1 -->
-
-			<div class="card bg-dark text-white">
-  <img src="http://wallpaperget.com/images/orange-background-15.jpg" class="card-img" alt="...">
-  <div class="card-img-overlay">
-
-  		<br>
-  		<div class="container">
-     <div class="row">
-    <div class="col-6 col-md-12"><h5>Bokföring</h5></div>
-    <div class="col-6 col-md-12"><h5>Webbutveckling</h5></div>
-    <div class="col-6 col-md-12"><h5>Översättning</h5></div>
-		 </div>
-		 <br>
-
-    <p class="col-12 col-md-6">Vi är ett familjeföretag belägna i Stockholm och Göteborg som erbjuder hemsidor, hjälp med bokföring och översättning till och från svenska/engelska/pashto</p>
-		</div>
-  </div>
-</div>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#kontakt">Kontakt</a>
+		    </li>
+		    
+		    </li>
+		  </ul>
+		</nav>
 
 
 
-	
-	<!-- Bild två -->
-	<div class="card bg-dark text-dark">
-	  <img src="https://hbr.org/resources/images/article_assets/2004/10/SEPT15_03_535621603.jpg" class="card-img" alt="...">
-	  <div class="card-img-overlay">
-	    <h5 class="card-title">Card title</h5>
-	    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	    <p class="card-text">Last updated 3 mins ago</p>
-	  </div>
-	</div>
+		<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
 
+			  
+			  <!-- Bild 1 -->
 
+			  			<h5 id="fat"></h5>
+			  			<br>
+			  			<br>
+							<div class="card bg-dark text-white">
+				  <img src="http://wallpaperget.com/images/orange-background-15.jpg" class="card-img" alt="...">
+				  <div class="card-img-overlay">
+
+				  		<br>
+				  		<div class="container">
+				     <div class="row">
+				    <div class="col-6 col-md-12"><h5>Bokföring</h5></div>
+				    <div class="col-6 col-md-12"><h5>Webbutveckling</h5></div>
+				    <div class="col-6 col-md-12"><h5>Översättning</h5></div>
+						 </div>
+						 <br>
+
+				    <p class="col-12 col-md-6">Vi är ett familjeföretag beläget i Stockholm och Göteborg som erbjuder hemsidor, hjälp med bokföring och översättning till och från svenska/engelska/pashto</p>
+						</div>
+				  </div>
+				
+
+
+		  <div id="omoss"></div>
+		  
+			<!-- Bild två -->
+			<div class="card bg-dark text-dark">
+			  <img src="https://hbr.org/resources/images/article_assets/2004/10/SEPT15_03_535621603.jpg" class="card-img" alt="...">
+			  <div class="card-img-overlay">
+			  	<div class="container">
+			  		<br>
+			  		<br>
+			    <h5 class="card-title">Card title</h5>
+			    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			    <p class="card-text">Last updated 3 mins ago</p>
+			</div>
+			  </div>
+			</div>
+
+
+			<div id="kontakt"></div>
 
 	<!-- Bild 3 -->
 	<div class="card bg-dark text-white">
 	  <img src="https://www.hologengreen.com/wp-content/uploads/green-water.jpeg" class="card-img" alt="...">
 	  <div class="card-img-overlay">
+	  	<div id="kontakt"></div>
+	  	<br>
+	  	<br>
 	    <h5 class="card-title">Card title</h5>
 	    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 	    <p class="card-text">Last updated 3 mins ago</p>
 	  </div>
 	</div>
+
 
 
 
@@ -101,5 +110,6 @@
 	
 		      </div>
 
-</footer>
+		</footer>
+	</body>
 </html>
