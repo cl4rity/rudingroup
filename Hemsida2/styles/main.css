@@ -1,5 +1,5 @@
 h5 {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color: white;
   	text-shadow: 2px 2px 4px #000000;
 }
@@ -9,12 +9,12 @@ p {
 }
 
 body {
-    font-family: 'Poppins';font-size: 1.1em;
+    font-family: 'Poppins';font-size: 1.1rem;
 }
 
 nav {
   font-family: 'Exo';
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .nav-link {
@@ -41,7 +41,7 @@ nav {
 }
 .ct-footer-post {
   background: white;
-  padding: 1.5em 0;
+  padding: 1.5rem 0;
 }
 
 .ct-footer-post ul li {
@@ -55,8 +55,8 @@ nav {
 .ct-footer-post p{
   text-shadow: none;
   color:black;
-  margin-bottom:0.05em;
-  font-size:0.8em;
+  margin-bottom:0.05rem;
+  font-size:0.8rem;
 }
 
 
